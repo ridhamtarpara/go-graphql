@@ -63,6 +63,12 @@
   version = "v1.2.0"
 
 [[projects]]
+  name = "github.com/joho/godotenv"
+  packages = ["."]
+  revision = "a79fa1e548e2c689c241d10173efd51e5d689d5b"
+  version = "v1.2.0"
+
+[[projects]]
   name = "github.com/rs/cors"
   packages = ["."]
   revision = "ca016a06a5753f8ba03029c0aa5e54afb1bf713f"
@@ -239,6 +245,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "0e17c1eba7e3e4916c2e93f24581f87292b2d37086d884884c36add7b7353916"
+  inputs-digest = "ec7a9348bd4a2c128656294fa4d54acd02bc8dd93ecd9ad5893d95177169a211"
   solver-name = "gps-cdcl"
   solver-version = 1

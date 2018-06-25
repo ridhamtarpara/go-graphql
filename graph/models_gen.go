@@ -12,6 +12,7 @@ type Job struct {
 	CreatedAt    string `json:"createdAt"`
 	CreatedBy    string `json:"createdBy"`
 }
+
 type NewJob struct {
 	Name         string `json:"name"`
 	Country      string `json:"country"`
