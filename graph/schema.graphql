@@ -1,0 +1,27 @@
+type Job {
+	id: String!   
+	name: String!
+	country: String!
+	description: String!
+	isDeleted: Boolean! 
+	noOfPosition: Int!   
+	createdAt: String!
+	createdBy: String!
+}
+
+
+input NewJob {
+	name: String!
+	country: String!
+	description: String!
+	isDeleted: Boolean!
+	noOfPosition: Int!
+}
+
+type Query {
+  	jobs: [Job!]!
+}
+
+type Mutation {
+  	createJob(input: NewJob!): Job!
+}
